@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+.btn-nav-link{
+    display: flex;
+    background: none;
+    border: none;
+}
+.btn-nav-link:hover{
+    border: solid black;
+    border-radius: 3rem;
+    background-color: green;
+}
+
+.carrito-img{
+    width: 3rem;
+}
