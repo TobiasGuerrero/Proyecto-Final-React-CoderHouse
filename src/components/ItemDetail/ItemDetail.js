@@ -14,6 +14,7 @@ const ItemDetail = ({id, nombre, img, categoria, descripcion, precio, stock}) =>
                 <p>Categoria: {categoria}</p>
                 <p>Descripción: {descripcion}</p>
                 <p>Precio: {precio}</p>
+                <p>Stock Disponible: {stock}</p>
             </section>
             <footer className="ItemFooter">
                 <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log("cantidad agregada ", quantity)}/>

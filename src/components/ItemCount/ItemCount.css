@@ -5,3 +5,9 @@
     align-items: center;
     
 }
+.Button{
+    background-color: grey;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+}

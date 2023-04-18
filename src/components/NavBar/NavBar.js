@@ -6,15 +6,15 @@ const NavBar = () => {
     return (
         <nav className="navbar">
             <Link to="/PreEntrega2Guerrero/">
-                <h3>AeroPC</h3>
+                <h1 className="navh1">AeroPC</h1>
             </Link>
             <div className="nav">
-                <NavLink to={"/categoria/gabinetes"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Gabinetes</NavLink>
-                <NavLink to={"/categoria/fuentes"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Fuentes</NavLink>
-                <NavLink to={"/categoria/placasMadre"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Placas Madre</NavLink>
-                <NavLink to={"/categoria/procesadores"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Procesadores</NavLink>
-                <NavLink to={"/categoria/memoriasRam"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Memorias Ram</NavLink>
-                <NavLink to={"/categoria/placasVideo"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Placas de Video</NavLink>
+                <NavLink to={"/categoria/Gabinetes"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Gabinetes</NavLink>
+                <NavLink to={"/categoria/Fuentes"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Fuentes</NavLink>
+                <NavLink to={"/categoria/PlacasMadre"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Placas Madre</NavLink>
+                <NavLink to={"/categoria/Procesadores"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Procesadores</NavLink>
+                <NavLink to={"/categoria/MemoriasRam"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Memorias Ram</NavLink>
+                <NavLink to={"/categoria/PlacasDeVideo"} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Placas de Video</NavLink>
             </div>
             <CartWidget />
         </nav>
