@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PreEntrega2Guerrero/static/css/main.39fd0e96.css",
-    "main.js": "/PreEntrega2Guerrero/static/js/main.64458a89.js",
-    "static/js/787.dc11811e.chunk.js": "/PreEntrega2Guerrero/static/js/787.dc11811e.chunk.js",
-    "static/media/carritoImg.svg": "/PreEntrega2Guerrero/static/media/carritoImg.acca9e2ea0bdd35e185821d12a4ee733.svg",
-    "index.html": "/PreEntrega2Guerrero/index.html",
-    "main.39fd0e96.css.map": "/PreEntrega2Guerrero/static/css/main.39fd0e96.css.map",
-    "main.64458a89.js.map": "/PreEntrega2Guerrero/static/js/main.64458a89.js.map",
-    "787.dc11811e.chunk.js.map": "/PreEntrega2Guerrero/static/js/787.dc11811e.chunk.js.map"
+    "main.css": "/static/css/main.39fd0e96.css",
+    "main.js": "/static/js/main.bb859517.js",
+    "static/js/787.dc11811e.chunk.js": "/static/js/787.dc11811e.chunk.js",
+    "static/media/carritoImg.svg": "/static/media/carritoImg.acca9e2ea0bdd35e185821d12a4ee733.svg",
+    "index.html": "/index.html",
+    "main.39fd0e96.css.map": "/static/css/main.39fd0e96.css.map",
+    "main.bb859517.js.map": "/static/js/main.bb859517.js.map",
+    "787.dc11811e.chunk.js.map": "/static/js/787.dc11811e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39fd0e96.css",
-    "static/js/main.64458a89.js"
+    "static/js/main.bb859517.js"
   ]
 }
