@@ -1,0 +1,13 @@
+.CartItem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 90%;
+    border: solid;
+    padding: 0.5rem;
+}
+.CartItemName{
+    display: flex;
+    width: 40rem;
+}

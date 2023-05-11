@@ -12,16 +12,3 @@
 .DetailImg{
     height: 15rem;
 }
-
-.OptionItem{
-    background-color: grey;
-    padding: 0.3rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    color: black;
-}
-
-.OptionItem:hover{
-    background-color: black;
-    color: grey;
-}
