@@ -11,7 +11,7 @@ const Cart = () => {
         return(
             <div className="CartContainer">
                 <h1>Carrito Vacio</h1>
-                <Link to="/PreEntrega2Guerrero/" className="OptionCart">Volver a Productos</Link>
+                <Link to="/Proyecto-Final-React-CoderHouse/" className="OptionCart">Volver a Productos</Link>
             </div>
         )
     }else{
