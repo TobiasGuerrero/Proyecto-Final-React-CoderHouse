@@ -33,7 +33,7 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) => {
             </section>
             <footer className="ItemFooter">
                 {
-                    quantityAdded > 0 ? ( <Link to="/PreEntrega2Guerrero/" className="OptionItem">Volver a ver los productos.</Link>) : (<ItemCount initial={1} stock={stock} onAdd={handleOnAdd}/>)
+                    quantityAdded > 0 ? ( <Link to="/Proyecto-Final-React-CoderHouse/" className="OptionItem">Volver a ver los productos.</Link>) : (<ItemCount initial={1} stock={stock} onAdd={handleOnAdd}/>)
                 }
             </footer>
         </article>
