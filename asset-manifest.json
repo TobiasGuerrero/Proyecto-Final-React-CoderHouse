@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/PreEntrega2Guerrero/static/css/main.8963cac8.css",
-    "main.js": "/PreEntrega2Guerrero/static/js/main.b99025fe.js",
+    "main.js": "/PreEntrega2Guerrero/static/js/main.75778131.js",
     "static/js/787.dc11811e.chunk.js": "/PreEntrega2Guerrero/static/js/787.dc11811e.chunk.js",
     "static/media/carritoImg.svg": "/PreEntrega2Guerrero/static/media/carritoImg.acca9e2ea0bdd35e185821d12a4ee733.svg",
     "index.html": "/PreEntrega2Guerrero/index.html",
     "main.8963cac8.css.map": "/PreEntrega2Guerrero/static/css/main.8963cac8.css.map",
-    "main.b99025fe.js.map": "/PreEntrega2Guerrero/static/js/main.b99025fe.js.map",
+    "main.75778131.js.map": "/PreEntrega2Guerrero/static/js/main.75778131.js.map",
     "787.dc11811e.chunk.js.map": "/PreEntrega2Guerrero/static/js/787.dc11811e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8963cac8.css",
-    "static/js/main.b99025fe.js"
+    "static/js/main.75778131.js"
   ]
 }
