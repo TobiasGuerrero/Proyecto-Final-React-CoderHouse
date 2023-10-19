@@ -1,10 +1,8 @@
 const Airtable = require('airtable');
 
 // Configura tu token de acceso y el ID de la base de datos
-const accessToken = process.env.ACCESS_TOKEN;
-const baseId = process.env.BASE_ID;
-console.log(accessToken);
-console.log(baseId);
+const accessToken = process.env.REACT_APP_ACCESS_TOKEN;
+const baseId = process.env.REACT_APP_BASE_ID;
 
 // Crea una instancia de Airtable con tu token y base ID
 const base = new Airtable({ apiKey: accessToken }).base(baseId);

@@ -6,10 +6,10 @@ import { getProducts } from "../../services/airtable/Airtable";
 import { useNavigate } from 'react-router-dom';
 
 // Configura tu token de acceso y el ID de la base de datos
-const accessToken = process.env.ACCESS_TOKEN;
-const baseId = process.env.BASE_ID;
+const accessToken = process.env.REACT_APP_ACCESS_TOKEN;
+const baseId = process.env.REACT_APP_BASE_ID;
 
-const base = new Airtable({ accessToken }).base(baseId);
+const base = new Airtable({ apiKey: accessToken }).base(baseId);
 
 const Checkout = () => {
     const [loading, setLoading] = useState(false);
