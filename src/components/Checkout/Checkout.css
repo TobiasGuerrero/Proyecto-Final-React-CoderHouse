@@ -1,0 +1,12 @@
+.checkoutContainer{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+}
+
+.checkoutH1{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 15rem;
+}

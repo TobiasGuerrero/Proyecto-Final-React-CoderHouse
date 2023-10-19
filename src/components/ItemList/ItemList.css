@@ -1,0 +1,19 @@
+.ListGroup{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 0.2rem;
+}
+
+@media (min-width: 720px) {
+    .ListGroup{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .ListGroup{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

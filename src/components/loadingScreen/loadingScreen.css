@@ -1,0 +1,30 @@
+.containerLoading {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .loading {
+    width: 80px;
+    height: 80px;
+    border: 8px solid #000;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  .loadingText {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }

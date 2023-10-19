@@ -1,0 +1,29 @@
+.checkoutForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.checkoutLabel{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 60%;
+}
+
+.checkoutImput{
+    border: solid;
+    padding: 0.5rem;
+} 
+
+.checkoutButton{
+    border: solid;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.checkoutButton:hover{
+    background-color: black;
+    color: gray;
+    border-color: black;
+}

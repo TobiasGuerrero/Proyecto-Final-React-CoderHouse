@@ -1,0 +1,14 @@
+.CardItemDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+.DetailImg{
+    height: 15rem;
+}

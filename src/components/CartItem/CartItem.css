@@ -1,0 +1,24 @@
+.CartItem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 90%;
+    border: solid;
+    padding: 0.5rem;
+    background-color: white;
+}
+.CartItemName{
+    display: flex;
+    width: 40rem;
+}
+.OptionCartItem{
+    background-color: grey;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+.OptionCartItem:hover{
+    background-color: black;
+    color: grey;
+    cursor: pointer;
+}
