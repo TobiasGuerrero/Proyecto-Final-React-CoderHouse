@@ -29,4 +29,4 @@ async function getProducts() {
   }
 }
 
-module.exports = { getProducts };
+export { getProducts };
